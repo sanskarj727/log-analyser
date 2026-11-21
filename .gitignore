@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+
+# Never commit secrets. The app needs none today; if an optional AI feature is added,
+# keep its key in a local .env file and document the variable name in the README.
+.env
